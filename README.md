@@ -1,14 +1,10 @@
 # SearchSnake
 
-### Final project for CSCI 4478 - Artificial Intelligence
+### Final project for CSCI 6660 - Artificial Intelligence
 
-*Developed by Ben Greenfield and Ben Placzek*
 
 *Video presentation on this project can be found here:<br>
-https://www.youtube.com/watch?v=hrMI7ppUGyU&ab_channel=LazyTech*
-
-*Base code for snake game inspired by FreeCodeCamp.org's example at:<br>
- https://www.youtube.com/watch?v=CD4qAhfFuLo&t=1734s&ab_channel=freeCodeCamp.org*
+https://www.youtube.com/watch?v=ofmKFnmmyi4
  
  ### Goal:
  Our objective was to create a game of snake that would be able to play itself intelligently by using
