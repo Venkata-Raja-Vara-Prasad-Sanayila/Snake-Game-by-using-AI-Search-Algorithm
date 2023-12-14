@@ -1,0 +1,16 @@
+- The body of the snake (minus the head) should be counted as "walls." Whatever system holds the info for the snake's
+  body needs to compute the grid location for each body piece (each square) and send this info to the search
+  algorithms.
+
+- The only new walls that will appear when the snake moves to get the next food will be directly behind him - should
+  we only feed the snake the wall locations once per new food appearance? Do we need to update as we go since some walls
+  will disappear? (the tail end of the snake will move walls, a new path could theoretically appear as the snake moves)
+
+- Algorithm can choose north, south, east or west. Depending on what is returned these can be related to a key press
+  action in the game so that all the methods of snake still work correctly.
+
+- Functions we need: getSuccessor, getActions, getIsGoalState, getStartState, getCostOfActions
+
+- For a summary we can have the different search algorithms run in a row and record metrics such as number of moves,
+  perhaps we can relate this to a score metric of some sort. We could also have a set list of food positions for each
+  search to run through. After, we can create charts and graphs displaying this information.
